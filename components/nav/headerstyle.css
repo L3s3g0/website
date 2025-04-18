@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.6rem 10rem;
+    margin: 0;
+}
+
+.header ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li a{
+    display: block;
+    padding: 8px;
+    font-size: 1.1rem;
+    color: #2C3E50;
+}
